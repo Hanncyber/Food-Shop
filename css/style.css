@@ -1,9 +1,7 @@
-/* Make background light gray */
 body {
   background-color: #f4f4f4;
 }
 
-/* Make the heading red */
 h1 {
   color: red;
 }

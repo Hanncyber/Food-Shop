@@ -353,3 +353,80 @@ a {
   text-align: center;
 }
 
+/* =====================
+   Responsive
+===================== */
+
+/* Medium screens (tablets, < 1024px) */
+@media (max-width: 1024px) {
+  .products-grid-p {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+  }
+
+  .our-grid {
+    grid-template-columns: 1fr; 
+    text-align: center; 
+  }
+
+  .our-img img {
+    margin: 0 auto;
+  }
+}
+
+/* Small screens (phones, < 768px) */
+@media (max-width: 768px) {
+  .products-grid-p {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+  }
+
+  .herop {
+    height: 150px; 
+    padding: 0 10px;
+  }
+
+  .herop h1 {
+    font-size: 2rem;
+  }
+
+  .herop p {
+    font-size: 1rem;
+  }
+
+  .contact {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Extra small screens (phones, < 480px) */
+@media (max-width: 480px) {
+  .products-grid-p {
+    grid-template-columns: 1fr; 
+  }
+
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .our-text p {
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    padding: 0.8rem;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socials a {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+}
+

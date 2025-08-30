@@ -51,3 +51,74 @@ nav ul li a:hover {
   padding: 10px 20px;
   border-radius: 5px;
 }
+
+/* Products Section */
+.products {
+  padding: 50px 20px;
+  text-align: center;  /* center title */
+  background-color: #f9f9f9; /* subtle background for section */
+}
+
+.products h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Grid for cards */
+.products-grid {
+  display: flex;            /* horizontal layout */
+  flex-wrap: wrap;          /* wrap on smaller screens */
+  justify-content: center;  /* center cards */
+  gap: 20px;                /* space between cards */
+}
+
+/* Individual card */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s; /* hover animation */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* lift effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Image inside card */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Card title */
+.card h3 {
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+/* Price */
+.card .price {
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+/* Button inside card */
+.card .btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+  background-color: #e65c00;
+}
+

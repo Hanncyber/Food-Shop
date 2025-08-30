@@ -26,3 +26,28 @@ nav ul li a {
 nav ul li a:hover {
   color: orange;           /* links turn orange on hover */
 }
+
+/* Hero section */
+.hero {
+  text-align: center;          /* center text */
+  padding: 50px 20px;          /* space inside the box: top/bottom 50px, left/right 20px */
+  background-color: #fff8dc;   /* light yellow background */
+}
+
+.hero h1 {
+  font-size: 2.5rem;           /* bigger heading */
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ff6600;   /* orange button */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

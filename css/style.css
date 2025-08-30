@@ -1,7 +1,28 @@
-body {
-  background-color: #f4f4f4;
+/* Navigation bar */
+nav {
+  background-color: #333;   /* dark background */
+  padding: 10px;
 }
 
-h1 {
-  color: red;
+nav ul {
+  list-style: none;   /* remove bullet points */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* put items side by side */
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;   /* remove underline */
+  color: white;            /* make links white */
+  font-weight: bold;
+  transition: 0.3s;        /* smooth hover effect */
+}
+
+nav ul li a:hover {
+  color: orange;           /* links turn orange on hover */
 }
